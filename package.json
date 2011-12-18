@@ -1,0 +1,19 @@
+{
+  "author": "Joubert Nel <joubert@joubster.com> (https://github.com/joubertnel)",
+  "name": "Stakkr",
+  "description": "Compiles and Bundles JavaScript sources into an optimized application stack.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/joubertnel/stakkr",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joubertnel/stakkr.git"
+  },
+  
+  "main": "./index.js",
+  "engines": {
+    "node": "~0.6.5"
+  },
+  
+  "dependencies": {},
+  "devDependencies": {}
+}
