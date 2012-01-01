@@ -1,6 +1,7 @@
 {
-  "build_dir": "/Users/joubert/temp/cranejs/build",
-  "app_file": "/Users/joubert/temp/cranejs/build/example_app.js",
-  "src": ["src"]
-
+  "build_dir": "build",
+  "app_file": "example_app.js",
+  
+  "src": ["src/core.js",
+	  "src/statechart.js"]
 }
