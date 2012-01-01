@@ -1,15 +1,17 @@
 {
   "author": "Joubert Nel <joubert@joubster.com> (https://github.com/joubertnel)",
-  "name": "Stakkr",
-  "description": "Compiles and Bundles JavaScript sources into an optimized application stack.",
+  "name": "Build.js",
+  "description": "Compiles and Bundles JavaScript sources into an optimized application.",
   "version": "0.0.1",
-  "homepage": "https://github.com/joubertnel/stakkr",
+  "homepage": "https://github.com/joubertnel/build.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joubertnel/stakkr.git"
+    "url": "git://github.com/joubertnel/build.js.git"
   },
   
   "main": "./index.js",
+  "bin": { "buildjs": "./bin/buildjs" },
+  
   "engines": {
     "node": "~0.6.5"
   },
