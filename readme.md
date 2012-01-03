@@ -12,6 +12,7 @@ Configure your project in a buildjs.json file. Three settings can be configured:
 - build_dir
 - app_file (optional)
 - src
+- rewrites (optional)
 
 
 build_dir
@@ -27,6 +28,12 @@ By default build.js creates a single output file named "app.js". You can overrid
 src
 ---
 An array of .js source files that constitute your JavaScript application.
+
+
+rewrites
+--------
+An optional array of source code rewrites you want to apply to the single .js file.
+Each item in the array has a "from" and a "to" slot. The "from" slot is a regular expression.
 
 
 Running Build.js
