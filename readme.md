@@ -10,10 +10,10 @@ Settings
 =============
 Configure your project in a buildjs.json file. Three settings can be configured:
 - build_dir
-- app_file (optional)
+- app_file (optional; default=app.js)
 - src
 - rewrites (optional)
-
+- wrap_in_anonymous (optional; default=true)
 
 build_dir
 ---------
@@ -34,6 +34,10 @@ rewrites
 --------
 An optional array of source code rewrites you want to apply to the single .js file.
 Each item in the array has a "from" and a "to" slot. The "from" slot is a regular expression.
+
+wrap_in_anonymous
+-----------------
+By default the content of each source file is wrapped in an anoymous function that is executed immediately so as to prevent variable clobbering. To turn this off for your build, set wrap_in_anonymous=false.
 
 
 Running Build.js
