@@ -14,6 +14,7 @@ Configure your project in a buildjs.json file. Three settings can be configured:
 - src
 - rewrites (optional)
 - wrap_in_anonymous (optional; default=true)
+- no_optimize (optional; default = --watch ? true : false)
 
 build_dir
 ---------
@@ -39,6 +40,11 @@ Each item in the array has a "from" and a "to" slot. The "from" slot is a regula
 wrap_in_anonymous
 -----------------
 By default the content of each source file is wrapped in an anoymous function that is executed immediately so as to prevent variable clobbering. To turn this off for your build, set wrap_in_anonymous=false.
+
+
+no_minify
+---------
+Whether or not the JS compiler/minifier is run. The default value is set to 'true' if the --watch flag is set, otherwise the default value is 'false'. This is useful while you're developing since you can see the original JavaScript source code in the debugger.
 
 
 Running Build.js
