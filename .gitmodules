@@ -1,0 +1,3 @@
+[submodule "build.fx"]
+	path = build.fx
+	url = git@github.com:joubertnel/build.fx.git
