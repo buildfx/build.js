@@ -9,12 +9,19 @@ Build.js can be run ad hoc or with a --watch flag, in which case it monitors the
 Settings
 =========
 Configure your project in a buildjs.json file. These settings can be configured:
+
 - build_dir
+
 - app_file (optional; default=app.js)
+
 - src
+
 - rewrites (optional)
+
 - wrap_in_anonymous (optional; default=true)
+
 - no_optimize (optional; default = --watch ? true : false)
+
 
 build_dir
 ---------
