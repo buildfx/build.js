@@ -11,6 +11,7 @@ bin/buildjs \[flags\]
 Flags
 -----  
   --settings  Optional path to settings file. Defaults to "buildjs.json"
+  
   --watch     If set, Buildjs monitors the list of source files and refreshes the single .js
   			  output file as and when any of the source files change. 
 
