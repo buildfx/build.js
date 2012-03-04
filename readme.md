@@ -2,12 +2,21 @@ Overview
 ========
 Build.js is a development tool for JavaScript hacking. From a list of source files it produces a single .js file that is optimized using the Google Closure Compiler.
 
-Build.js can be run ad hoc or with a --watch flag, in which case it monitors the list of source files and refreshes the single .js output file as and when any of the source files change.
 
+Running Build.js
+================
+bin/buildjs \[flags\] 
+
+
+Flags
+-----  
+  --settings  Optional path to settings file. Defaults to "buildjs.json"
+  --watch     If set, Buildjs monitors the list of source files and refreshes the single .js
+  			  output file as and when any of the source files change. 
 
 
 Settings
-=========
+========
 Configure your project in a buildjs.json file. These settings can be configured:
 
 - build_dir
@@ -54,10 +63,6 @@ no_minify
 Whether or not the JS compiler/minifier is run. The default value is set to 'true' if the --watch flag is set, otherwise the default value is 'false'. This is useful while you're developing since you can see the original JavaScript source code in the debugger.
 
 
-Running Build.js
-================
-Run bin/buildjs from the directory that contains your project's buildjs.json configuration.
-To continuously produce the output .js file, add the --watch flag.
 
 
 Example project

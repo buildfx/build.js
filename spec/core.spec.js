@@ -1,3 +1,5 @@
+// These specs can be run with jasmine-node
+
 var wrench = require('wrench');
 
 describe('core', function() {
