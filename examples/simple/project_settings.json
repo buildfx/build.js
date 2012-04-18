@@ -1,7 +1,0 @@
-{
-  "build_dir": "build",
-  "app_file": "example_app.js",
-  
-  "src": ["src/core.js",
-	  "src/statechart.js"]
-}

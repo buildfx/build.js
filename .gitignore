@@ -1,4 +1,3 @@
 *~
-eproject.cfg
-example_app.js
-build/
+app.js
+buildjs

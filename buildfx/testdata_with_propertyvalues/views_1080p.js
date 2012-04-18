@@ -1,0 +1,1 @@
+console.log('$APPNAME$ $RESOLUTION$p views loaded');
