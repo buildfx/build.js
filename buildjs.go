@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./buildfx"
 	"flag"
 	"fmt"
+	"github.com/buildfx/build.fx"
 	"io/ioutil"
 	"regexp"
 	"strings"

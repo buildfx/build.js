@@ -1,1 +1,0 @@
-// @depend views_$RESOLUTION$p.js
